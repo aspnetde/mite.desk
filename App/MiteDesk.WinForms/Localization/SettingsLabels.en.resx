@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountGroupboxTitle" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="AccountLabelAccountName" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="AccountLabelAPIKey" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="AccountLabelConnectBy" xml:space="preserve">
+    <value>Authenticate by</value>
+  </data>
+  <data name="AccountLabelConnectByApiKey" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="AccountLabelConnectByEmailAndPassword" xml:space="preserve">
+    <value>Email and password</value>
+  </data>
+  <data name="AdvancedGroupboxTitle" xml:space="preserve">
+    <value>Closing</value>
+  </data>
+  <data name="AdvancedLabelMinimizeByClose" xml:space="preserve">
+    <value>Don't exit mite.desk by closing the window, minimize it</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ButtonCheckConnection" xml:space="preserve">
+    <value>Check connection</value>
+  </data>
+  <data name="ButtonOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FormTitle" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="LanguageGroupboxTitle" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LoginByAccountGroupboxTitle" xml:space="preserve">
+    <value>Authenticate by Email/password</value>
+  </data>
+  <data name="LoginByAccountLabelEmail" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="LoginByAccountLabelPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="LoginByAccountLabelShowPassword" xml:space="preserve">
+    <value>Show password</value>
+  </data>
+  <data name="LoginByApiKeyGroupboxTitle" xml:space="preserve">
+    <value>Authenticate by API key</value>
+  </data>
+  <data name="MsgBoxConnectionTestFailureText" xml:space="preserve">
+    <value>Error: {0}
+
+Did you allow API access in your account settings?</value>
+  </data>
+  <data name="MsgBoxConnectionTestFailureTitle" xml:space="preserve">
+    <value>Cannot connect to mite.</value>
+  </data>
+  <data name="MsgBoxConnectionTestSuccessText" xml:space="preserve">
+    <value>Connected successfully. Authenticated as: {0} ({1})</value>
+  </data>
+  <data name="MsgBoxConnectionTestSuccessTitle" xml:space="preserve">
+    <value>Connected successfully</value>
+  </data>
+  <data name="MsgBoxFirstSetupMessageText" xml:space="preserve">
+    <value>Please enter your mite. login data or your personal API key.
+
+(Keep in mind that you have to allow API access in your account)</value>
+  </data>
+  <data name="MsgBoxFirstSetupMessageTitle" xml:space="preserve">
+    <value>Welcome to mite.desk!</value>
+  </data>
+  <data name="SecurityConnectBySSL" xml:space="preserve">
+    <value>Use a secure connection with SSL encryption</value>
+  </data>
+  <data name="SecurityGroupboxTitle" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="StartGroupboxTitle" xml:space="preserve">
+    <value>Startup</value>
+  </data>
+  <data name="StartLabelAutostart" xml:space="preserve">
+    <value>Start mite.desk by logging in in Windows automatically (Autostart)</value>
+  </data>
+  <data name="StartLabelStartMinimized" xml:space="preserve">
+    <value>Start minimized</value>
+  </data>
+  <data name="TabAccount" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="TabAdvanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="TabLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="TabNetwork" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="TabUpdates" xml:space="preserve">
+    <value>Updates</value>
+  </data>
+  <data name="UpdateCheck0" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="UpdateCheck14" xml:space="preserve">
+    <value>Every 14 days</value>
+  </data>
+  <data name="UpdateCheck30" xml:space="preserve">
+    <value>Every 30 days</value>
+  </data>
+  <data name="UpdateCheck7" xml:space="preserve">
+    <value>Every 7 days</value>
+  </data>
+  <data name="UpdateCheckNever" xml:space="preserve">
+    <value>never</value>
+  </data>
+  <data name="UpdatesGroupboxTitle" xml:space="preserve">
+    <value>Automatic check for updates</value>
+  </data>
+  <data name="UpdatesLabelInterval" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="UpdatesLabelLastUpdatecheck" xml:space="preserve">
+    <value>Last checked</value>
+  </data>
+  <data name="ProxyServer" xml:space="preserve">
+    <value>Proxy Server</value>
+  </data>
+  <data name="ProxyServerLabel" xml:space="preserve">
+    <value>Use a proxy server</value>
+  </data>
+  <data name="ProxyPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ProxyUser" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="AskForStoppingStopwatchByClosing" xml:space="preserve">
+    <value>Ask me for stopping the stopwatch before exiting</value>
+  </data>
+  <data name="StopStopwatchByClosing" xml:space="preserve">
+    <value>Automatically stop the stopwatch before exiting</value>
+  </data>
+  <data name="SortDescending" xml:space="preserve">
+    <value>Sort entries in reverse order (newest first)</value>
+  </data>
+  <data name="TimeEntriesGroupboxTitle" xml:space="preserve">
+    <value>Time Entries</value>
+  </data>
+</root>

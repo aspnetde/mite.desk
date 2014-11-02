@@ -1,0 +1,4 @@
+﻿•	"time_tracker"  Zeiterfasser				public@bandt.ws			aae01461
+•	"coworker"      Standard-Nutzer				mail@thomasbandt.de		259c8768
+•	"admin"         Administrator				info@69grad.de			4cf82f2e
+•	"owner"         Besitzer des Accounts		bandt@69grad.de			winmite

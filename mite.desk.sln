@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3E096A6F-58B7-4CC9-AE27-BC39AB46A999}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{162AA04A-FA08-44DE-B642-25EBE5F7FB4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{40B8DF61-C708-4EF3-89A1-F74AEED41DBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC53198E-BB8B-4D88-A8A1-55C0A3ED752A}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		mite.desk.vsmdi = mite.desk.vsmdi
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{C7B9AE1C-36C3-4367-8BB2-308A4C763885}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{43527D84-2933-43D7-AB30-7721020FFF27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiteDesk.Core.Model", "Core\MiteDesk.Core.Model\MiteDesk.Core.Model.csproj", "{AE69F9FC-F9D4-41D8-9B00-1261F492FB89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiteDesk.Core.Services", "Core\MiteDesk.Core.Services\MiteDesk.Core.Services.csproj", "{B7B67B5C-47F1-4E3D-8759-EA8E31AC951E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiteDesk.Core.Data", "Core\MiteDesk.Core.Data\MiteDesk.Core.Data.csproj", "{AD8740D8-14A7-4A31-8F96-7DF850D3D957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiteDesk.WinForms", "App\MiteDesk.WinForms\MiteDesk.WinForms.csproj", "{352CDDB3-9A72-43FE-84B4-7021C6CBCAD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiteDesk.Core.Services.Tests", "Tests\MiteDesk.Core.Services.Tests\MiteDesk.Core.Services.Tests.csproj", "{C9BD6574-4771-4068-B321-40943DCD3C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiteDesk.Core.Data.Tests", "Tests\MiteDesk.Core.Data.Tests\MiteDesk.Core.Data.Tests.csproj", "{DFD37C08-9F36-4534-96B2-4A67AEE85F00}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MiteDesk.WinForms.Setup", "Deployment\MiteDesk.WinForms.Setup\MiteDesk.WinForms.Setup.vdproj", "{D3F6F4AB-5890-4646-9DD6-C0DD31008ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiteDesk.Tools.Connector", "Tools\MiteDesk.Tools.Connector\MiteDesk.Tools.Connector.csproj", "{1B74B3CE-8969-4157-8B86-AEDA27494109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiteDesk.Core.Infrastructure", "Core\MiteDesk.Core.Infrastructure\MiteDesk.Core.Infrastructure.csproj", "{733C8DE9-36B5-4C9F-9701-FDD19B64B966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiteDesk.Core.Infrastructure.Tests", "Tests\MiteDesk.Core.Infrastructure.Tests\MiteDesk.Core.Infrastructure.Tests.csproj", "{BEE63E05-FFC7-4F80-A938-2B4272683E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiteDesk.Tools.RegistryCleaner", "Tools\MiteDesk.Tools.RegistryCleaner\MiteDesk.Tools.RegistryCleaner.csproj", "{CA4BEC83-51A1-4E67-B2C7-3598E51A98AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE69F9FC-F9D4-41D8-9B00-1261F492FB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE69F9FC-F9D4-41D8-9B00-1261F492FB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE69F9FC-F9D4-41D8-9B00-1261F492FB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE69F9FC-F9D4-41D8-9B00-1261F492FB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B67B5C-47F1-4E3D-8759-EA8E31AC951E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B67B5C-47F1-4E3D-8759-EA8E31AC951E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B67B5C-47F1-4E3D-8759-EA8E31AC951E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B67B5C-47F1-4E3D-8759-EA8E31AC951E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8740D8-14A7-4A31-8F96-7DF850D3D957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8740D8-14A7-4A31-8F96-7DF850D3D957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8740D8-14A7-4A31-8F96-7DF850D3D957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8740D8-14A7-4A31-8F96-7DF850D3D957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352CDDB3-9A72-43FE-84B4-7021C6CBCAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352CDDB3-9A72-43FE-84B4-7021C6CBCAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352CDDB3-9A72-43FE-84B4-7021C6CBCAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352CDDB3-9A72-43FE-84B4-7021C6CBCAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9BD6574-4771-4068-B321-40943DCD3C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9BD6574-4771-4068-B321-40943DCD3C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9BD6574-4771-4068-B321-40943DCD3C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9BD6574-4771-4068-B321-40943DCD3C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD37C08-9F36-4534-96B2-4A67AEE85F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD37C08-9F36-4534-96B2-4A67AEE85F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD37C08-9F36-4534-96B2-4A67AEE85F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD37C08-9F36-4534-96B2-4A67AEE85F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F6F4AB-5890-4646-9DD6-C0DD31008ACA}.Debug|Any CPU.ActiveCfg = Debug
+		{D3F6F4AB-5890-4646-9DD6-C0DD31008ACA}.Release|Any CPU.ActiveCfg = Release
+		{1B74B3CE-8969-4157-8B86-AEDA27494109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B74B3CE-8969-4157-8B86-AEDA27494109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B74B3CE-8969-4157-8B86-AEDA27494109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B74B3CE-8969-4157-8B86-AEDA27494109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733C8DE9-36B5-4C9F-9701-FDD19B64B966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733C8DE9-36B5-4C9F-9701-FDD19B64B966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733C8DE9-36B5-4C9F-9701-FDD19B64B966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733C8DE9-36B5-4C9F-9701-FDD19B64B966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE63E05-FFC7-4F80-A938-2B4272683E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE63E05-FFC7-4F80-A938-2B4272683E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE63E05-FFC7-4F80-A938-2B4272683E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE63E05-FFC7-4F80-A938-2B4272683E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4BEC83-51A1-4E67-B2C7-3598E51A98AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4BEC83-51A1-4E67-B2C7-3598E51A98AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4BEC83-51A1-4E67-B2C7-3598E51A98AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4BEC83-51A1-4E67-B2C7-3598E51A98AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC53198E-BB8B-4D88-A8A1-55C0A3ED752A} = {40B8DF61-C708-4EF3-89A1-F74AEED41DBF}
+		{AE69F9FC-F9D4-41D8-9B00-1261F492FB89} = {3E096A6F-58B7-4CC9-AE27-BC39AB46A999}
+		{B7B67B5C-47F1-4E3D-8759-EA8E31AC951E} = {3E096A6F-58B7-4CC9-AE27-BC39AB46A999}
+		{AD8740D8-14A7-4A31-8F96-7DF850D3D957} = {3E096A6F-58B7-4CC9-AE27-BC39AB46A999}
+		{352CDDB3-9A72-43FE-84B4-7021C6CBCAD4} = {162AA04A-FA08-44DE-B642-25EBE5F7FB4C}
+		{C9BD6574-4771-4068-B321-40943DCD3C88} = {40B8DF61-C708-4EF3-89A1-F74AEED41DBF}
+		{DFD37C08-9F36-4534-96B2-4A67AEE85F00} = {40B8DF61-C708-4EF3-89A1-F74AEED41DBF}
+		{D3F6F4AB-5890-4646-9DD6-C0DD31008ACA} = {C7B9AE1C-36C3-4367-8BB2-308A4C763885}
+		{1B74B3CE-8969-4157-8B86-AEDA27494109} = {43527D84-2933-43D7-AB30-7721020FFF27}
+		{733C8DE9-36B5-4C9F-9701-FDD19B64B966} = {3E096A6F-58B7-4CC9-AE27-BC39AB46A999}
+		{BEE63E05-FFC7-4F80-A938-2B4272683E0F} = {40B8DF61-C708-4EF3-89A1-F74AEED41DBF}
+		{CA4BEC83-51A1-4E67-B2C7-3598E51A98AF} = {43527D84-2933-43D7-AB30-7721020FFF27}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = mite.desk.vsmdi
+	EndGlobalSection
+EndGlobal

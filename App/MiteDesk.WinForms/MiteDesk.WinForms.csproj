@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{352CDDB3-9A72-43FE-84B4-7021C6CBCAD4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SixtyNineDegrees.MiteDesk.WinForms</RootNamespace>
+    <AssemblyName>mite.desk</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ManifestCertificateThumbprint>D6A9395B773CD057B51D8A60BAF73F15E7B078BE</ManifestCertificateThumbprint>
+    <ManifestKeyFile>WinMite.WinForms_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <StartupObject>SixtyNineDegrees.MiteDesk.WinForms.Program</StartupObject>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <ApplicationIcon>mite.desk.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>C:\Temp\WinMiteDeploy\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>0.9.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StructureMap, Version=2.5.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Library\Shared\StructureMap\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activities.Designer.cs">
+      <DependentUpon>Activities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebugConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebugConsole.Designer.cs">
+      <DependentUpon>DebugConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\ActivitiesLabels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActivitiesLabels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\CustomersLabels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomersLabels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\DebugConsoleLabels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DebugConsoleLabels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\FeedbackLabels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FeedbackLabels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\MainLabels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainLabels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\ProjectsLabels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectsLabels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\SettingsLabels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SettingsLabels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\UpdateCheckLabels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UpdateCheckLabels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginHelp.Designer.cs">
+      <DependentUpon>LoginHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Stuff\ListItem.cs" />
+    <Compile Include="Stuff\Helper.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Projects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Projects.Designer.cs">
+      <DependentUpon>Projects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Activities.resx">
+      <DependentUpon>Activities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugConsole.resx">
+      <DependentUpon>DebugConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\ActivitiesLabels.en.resx" />
+    <EmbeddedResource Include="Localization\ActivitiesLabels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ActivitiesLabels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\CustomersLabels.en.resx" />
+    <EmbeddedResource Include="Localization\CustomersLabels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CustomersLabels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\DebugConsoleLabels.en.resx" />
+    <EmbeddedResource Include="Localization\DebugConsoleLabels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DebugConsoleLabels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\FeedbackLabels.en.resx" />
+    <EmbeddedResource Include="Localization\FeedbackLabels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FeedbackLabels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\MainLabels.en.resx" />
+    <EmbeddedResource Include="Localization\MainLabels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MainLabels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\ProjectsLabels.en.resx" />
+    <EmbeddedResource Include="Localization\ProjectsLabels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjectsLabels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\SettingsLabels.en.resx" />
+    <EmbeddedResource Include="Localization\SettingsLabels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SettingsLabels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\UpdateCheckLabels.en.resx" />
+    <EmbeddedResource Include="Localization\UpdateCheckLabels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UpdateCheckLabels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginHelp.resx">
+      <DependentUpon>LoginHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Projects.resx">
+      <DependentUpon>Projects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\MiteDesk.Core.Data\MiteDesk.Core.Data.csproj">
+      <Project>{AD8740D8-14A7-4A31-8F96-7DF850D3D957}</Project>
+      <Name>MiteDesk.Core.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\MiteDesk.Core.Infrastructure\MiteDesk.Core.Infrastructure.csproj">
+      <Project>{733C8DE9-36B5-4C9F-9701-FDD19B64B966}</Project>
+      <Name>MiteDesk.Core.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\MiteDesk.Core.Model\MiteDesk.Core.Model.csproj">
+      <Project>{AE69F9FC-F9D4-41D8-9B00-1261F492FB89}</Project>
+      <Name>MiteDesk.Core.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\MiteDesk.Core.Services\MiteDesk.Core.Services.csproj">
+      <Project>{B7B67B5C-47F1-4E3D-8759-EA8E31AC951E}</Project>
+      <Name>MiteDesk.Core.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Tools\MiteDesk.Tools.Connector\MiteDesk.Tools.Connector.csproj">
+      <Project>{1B74B3CE-8969-4157-8B86-AEDA27494109}</Project>
+      <Name>MiteDesk.Tools.Connector</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disconnected.png" />
+    <None Include="Resources\favicon.ico.png" />
+    <None Include="Resources\mite.desk_icon_16x16_8.png" />
+    <None Include="Resources\mite.desk_icon_16x16_7.png" />
+    <None Include="Resources\mite.desk_icon_16x16_6.png" />
+    <None Include="Resources\mite.desk_icon_16x16_5.png" />
+    <None Include="Resources\mite.desk_icon_16x16_4.png" />
+    <None Include="Resources\mite.desk_icon_16x16_3.png" />
+    <None Include="Resources\mite.desk_icon_16x16_2.png" />
+    <None Include="Resources\mite.desk_icon_16x16_1.png" />
+    <None Include="Resources\mitedesk_clock_8.ico" />
+    <None Include="Resources\mitedesk_clock_7.ico" />
+    <None Include="Resources\mitedesk_clock_6.ico" />
+    <None Include="Resources\mitedesk_clock_5.ico" />
+    <None Include="Resources\mitedesk_clock_4.ico" />
+    <None Include="Resources\mitedesk_clock_3.ico" />
+    <None Include="Resources\mitedesk_clock_2.ico" />
+    <None Include="Resources\mitedesk_clock_1.ico" />
+    <None Include="Resources\mini_clock_animated_15x15.gif" />
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mite.desk.ico" />
+    <Content Include="Resources\connected.png" />
+    <None Include="Resources\hilfe.png" />
+    <None Include="Resources\Locked.png" />
+    <Content Include="Resources\loginhelp.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
