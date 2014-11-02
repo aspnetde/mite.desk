@@ -41,7 +41,7 @@ Der Hauptvorteil: du verlierst mit mite.desk deine Zeiterfassung nie mehr aus de
 	-	Verbindungscheck
 
 ## Sonstiges
-	- Speicherung des letzten Projektes/der letzten Leistung und automatische Vorbelegung beim nächsten Start
+	- 	Speicherung des letzten Projektes/der letzten Leistung und automatische Vorbelegung beim nächsten Start
 	-	Autostart - mite.desk wird automatisch beim Login in Windows gestartet (optional)
 	-	Minimierter Start (optional, sinnvoll in Kombination mit dem Autostart)
 	-	Automatische Prüfung nach Updates, Intervall einstell- und deaktivierbar
