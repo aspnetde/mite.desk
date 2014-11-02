@@ -3,7 +3,7 @@ mite.desk
 
 ![mite.desk Screenshot](screenshot.png?raw=true “mite.desk “Screenshot”)
 
-**Download:** [Version 1.3.0 herunterladen](https://github.com/aspnetde/mite.desk/releases/download/1.3.0/mite.desk-1.3.0.msi)
+**Download:** [Version 1.3.0 jetzt *kostenlos* herunterladen](https://github.com/aspnetde/mite.desk/releases/download/1.3.0/mite.desk-1.3.0.msi)
 
 # Was ist mite.desk?
 mite.desk ist der erste Windows-Client für mite, die schlanke Zeiterfassung für Teams und Freiberufler. Er integriert sich nahtlos in deinen Desktop und verbindet so die einfache und bequeme Zeiterfassung, wie du sie von mite kennst, mit deiner gewohnten Arbeitsweise unter Windows.
