@@ -47,7 +47,7 @@ namespace SixtyNineDegrees.MiteDesk.Tools.Connector
             }
 
             // User-Agent
-            request.UserAgent = "mite.desk/1.4.0";
+            request.UserAgent = "mite.desk/1.4.1";
 
         }
 

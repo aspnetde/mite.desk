@@ -21,49 +21,25 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_1F082255C91325C0F783C35244DBE206"
+        "MsmKey" = "8:_1157467594C3899A0BFE87247F3743AB"
+        "OwnerKey" = "8:_04A8B693F44A4C2AA60FD814913E3D08"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_225CF3D73E40238CFC78DB0F2A79434D"
+        "OwnerKey" = "8:_F294AFEE1F31AA3A7477C40C5B413BAB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_225CF3D73E40238CFC78DB0F2A79434D"
         "OwnerKey" = "8:_04A8B693F44A4C2AA60FD814913E3D08"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_28D91D0624DFFBEC0094A43C8043301A"
-        "OwnerKey" = "8:_04A8B693F44A4C2AA60FD814913E3D08"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3B4AE636F0008B5035D371D7F7946B0D"
-        "OwnerKey" = "8:_3D1E9E8CCDBB82DCC93A4162DC6D6D15"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3B4AE636F0008B5035D371D7F7946B0D"
-        "OwnerKey" = "8:_04A8B693F44A4C2AA60FD814913E3D08"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3D1E9E8CCDBB82DCC93A4162DC6D6D15"
-        "OwnerKey" = "8:_04A8B693F44A4C2AA60FD814913E3D08"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3D1E9E8CCDBB82DCC93A4162DC6D6D15"
-        "OwnerKey" = "8:_1F082255C91325C0F783C35244DBE206"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_451EE5233FED98824A8A61B989B85C25"
-        "OwnerKey" = "8:_3D1E9E8CCDBB82DCC93A4162DC6D6D15"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_451EE5233FED98824A8A61B989B85C25"
         "OwnerKey" = "8:_04A8B693F44A4C2AA60FD814913E3D08"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -87,32 +63,56 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EF7F71646CAFC768EB6C631C1554A37C"
-        "OwnerKey" = "8:_3B4AE636F0008B5035D371D7F7946B0D"
+        "MsmKey" = "8:_DFC2A5F04CEBCC0E408EAB7C190CE8AD"
+        "OwnerKey" = "8:_F2A34232B927ECF2EB18A49595DB4757"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EF7F71646CAFC768EB6C631C1554A37C"
-        "OwnerKey" = "8:_1F082255C91325C0F783C35244DBE206"
+        "MsmKey" = "8:_DFC2A5F04CEBCC0E408EAB7C190CE8AD"
+        "OwnerKey" = "8:_1157467594C3899A0BFE87247F3743AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EF7F71646CAFC768EB6C631C1554A37C"
+        "MsmKey" = "8:_DFC2A5F04CEBCC0E408EAB7C190CE8AD"
         "OwnerKey" = "8:_04A8B693F44A4C2AA60FD814913E3D08"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EF7F71646CAFC768EB6C631C1554A37C"
-        "OwnerKey" = "8:_451EE5233FED98824A8A61B989B85C25"
+        "MsmKey" = "8:_DFC2A5F04CEBCC0E408EAB7C190CE8AD"
+        "OwnerKey" = "8:_225CF3D73E40238CFC78DB0F2A79434D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EF7F71646CAFC768EB6C631C1554A37C"
-        "OwnerKey" = "8:_3D1E9E8CCDBB82DCC93A4162DC6D6D15"
+        "MsmKey" = "8:_DFC2A5F04CEBCC0E408EAB7C190CE8AD"
+        "OwnerKey" = "8:_F294AFEE1F31AA3A7477C40C5B413BAB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F294AFEE1F31AA3A7477C40C5B413BAB"
+        "OwnerKey" = "8:_04A8B693F44A4C2AA60FD814913E3D08"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F294AFEE1F31AA3A7477C40C5B413BAB"
+        "OwnerKey" = "8:_1157467594C3899A0BFE87247F3743AB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F2A34232B927ECF2EB18A49595DB4757"
+        "OwnerKey" = "8:_F294AFEE1F31AA3A7477C40C5B413BAB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F2A34232B927ECF2EB18A49595DB4757"
+        "OwnerKey" = "8:_04A8B693F44A4C2AA60FD814913E3D08"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -130,31 +130,31 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1F082255C91325C0F783C35244DBE206"
+        "OwnerKey" = "8:_1157467594C3899A0BFE87247F3743AB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3D1E9E8CCDBB82DCC93A4162DC6D6D15"
+        "OwnerKey" = "8:_F294AFEE1F31AA3A7477C40C5B413BAB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_451EE5233FED98824A8A61B989B85C25"
+        "OwnerKey" = "8:_225CF3D73E40238CFC78DB0F2A79434D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3B4AE636F0008B5035D371D7F7946B0D"
+        "OwnerKey" = "8:_F2A34232B927ECF2EB18A49595DB4757"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EF7F71646CAFC768EB6C631C1554A37C"
+        "OwnerKey" = "8:_DFC2A5F04CEBCC0E408EAB7C190CE8AD"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -184,10 +184,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.8"
                     {
-                    "Name" = "8:.NET Framework 3.5"
-                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    "Name" = "8:Microsoft .NET Framework 4.8 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.8"
                     }
                     "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
                     {
@@ -221,10 +221,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.8"
                     {
-                    "Name" = "8:.NET Framework 3.5"
-                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    "Name" = "8:Microsoft .NET Framework 4.8 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.8"
                     }
                     "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
                     {
@@ -252,9 +252,9 @@
             {
                 "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_C366A84C997D46A1B3E07AA85ACA4C8A"
                 {
-                "Name" = "8:.NET Framework"
+                "Name" = "8:Microsoft .NET Framework 4.8 (x86 and x64)"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:3.5.30729            "
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.8"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://www.microsoft.com/downloads/details.aspx?FamilyId=AB99342F-5D1A-413D-8319-81DA479AB0D7&displaylang=de"
                 }
@@ -262,20 +262,51 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1F082255C91325C0F783C35244DBE206"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1157467594C3899A0BFE87247F3743AB"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:mite.desk.core.services, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:mite.desk.core.services, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_1F082255C91325C0F783C35244DBE206"
+                    "_1157467594C3899A0BFE87247F3743AB"
                     {
                     "Name" = "8:mite.desk.core.services.dll"
                     "Attributes" = "3:512"
                     }
                 }
             "SourcePath" = "8:mite.desk.core.services.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_474D496400934C669E8E0D12487A84B1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_225CF3D73E40238CFC78DB0F2A79434D"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:mite.desk.tools.connector, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_225CF3D73E40238CFC78DB0F2A79434D"
+                    {
+                    "Name" = "8:mite.desk.tools.connector.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:mite.desk.tools.connector.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_474D496400934C669E8E0D12487A84B1"
@@ -307,99 +338,6 @@
                     }
                 }
             "SourcePath" = "8:StructureMap.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_474D496400934C669E8E0D12487A84B1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3B4AE636F0008B5035D371D7F7946B0D"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:mite.desk.core.infrastructure, Version=1.2.17.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_3B4AE636F0008B5035D371D7F7946B0D"
-                    {
-                    "Name" = "8:mite.desk.core.infrastructure.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:mite.desk.core.infrastructure.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_474D496400934C669E8E0D12487A84B1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3D1E9E8CCDBB82DCC93A4162DC6D6D15"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:mite.desk.core.data, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_3D1E9E8CCDBB82DCC93A4162DC6D6D15"
-                    {
-                    "Name" = "8:mite.desk.core.data.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:mite.desk.core.data.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_474D496400934C669E8E0D12487A84B1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_451EE5233FED98824A8A61B989B85C25"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:mite.desk.tools.connector, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_451EE5233FED98824A8A61B989B85C25"
-                    {
-                    "Name" = "8:mite.desk.tools.connector.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:mite.desk.tools.connector.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_474D496400934C669E8E0D12487A84B1"
@@ -477,20 +415,82 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EF7F71646CAFC768EB6C631C1554A37C"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DFC2A5F04CEBCC0E408EAB7C190CE8AD"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:mite.desk.core.model, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:mite.desk.core.model, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_EF7F71646CAFC768EB6C631C1554A37C"
+                    "_DFC2A5F04CEBCC0E408EAB7C190CE8AD"
                     {
                     "Name" = "8:mite.desk.core.model.dll"
                     "Attributes" = "3:512"
                     }
                 }
             "SourcePath" = "8:mite.desk.core.model.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_474D496400934C669E8E0D12487A84B1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F294AFEE1F31AA3A7477C40C5B413BAB"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:mite.desk.core.data, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F294AFEE1F31AA3A7477C40C5B413BAB"
+                    {
+                    "Name" = "8:mite.desk.core.data.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:mite.desk.core.data.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_474D496400934C669E8E0D12487A84B1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F2A34232B927ECF2EB18A49595DB4757"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:mite.desk.core.infrastructure, Version=1.2.17.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F2A34232B927ECF2EB18A49595DB4757"
+                    {
+                    "Name" = "8:mite.desk.core.infrastructure.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:mite.desk.core.infrastructure.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_474D496400934C669E8E0D12487A84B1"
@@ -1120,7 +1120,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_04A8B693F44A4C2AA60FD814913E3D08"
             {
-            "SourcePath" = "8:..\\..\\App\\MiteDesk.WinForms\\obj\\Debug\\mite.desk.exe"
+            "SourcePath" = "8:..\\..\\App\\MiteDesk.WinForms\\obj\\Release\\mite.desk.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_474D496400934C669E8E0D12487A84B1"
