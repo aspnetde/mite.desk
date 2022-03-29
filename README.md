@@ -3,7 +3,7 @@ mite.desk
 
 ![](https://raw.githubusercontent.com/aspnetde/mite.desk/main/screenshot.png)
 
-**Download:** [Version 1.4.0 jetzt *kostenlos* herunterladen](https://github.com/aspnetde/mite.desk/releases/download/1.4.0/mite.desk.msi)
+**Download:** [Version 1.4.1 jetzt *kostenlos* herunterladen](https://github.com/aspnetde/mite.desk/releases/download/1.4.1/mite.desk.msi)
 
 # Was ist mite.desk?
 mite.desk ist der erste Windows-Client für mite, die schlanke Zeiterfassung für Teams und Freiberufler. Er integriert sich nahtlos in deinen Desktop und verbindet so die einfache und bequeme Zeiterfassung, wie du sie von mite kennst, mit deiner gewohnten Arbeitsweise unter Windows.
@@ -48,4 +48,4 @@ Der Hauptvorteil: du verlierst mit mite.desk deine Zeiterfassung nie mehr aus de
 * Minimieren statt Schließen - mite.desk wird beim Schließen des Fensters optional nicht geschlossen, sondern in die Taskleiste minimiert
 
 # Systemanforderungen
-Zur Installation und Ausführung von mite.desk benötigst du einen Computer mit Windows (XP, Vista, 7, 8/8.1, 10 oder 11) sowie das .NET Framework in den Versionen 3.5 und 4.8 (ggf. ist das alles bei deinem Windows schon mit dabei und du musst dich um nichts kümmern – andernfalls wird dich der Installer darauf hinweisen). Und online solltest du natürlich sein :-).
+Zur Installation und Ausführung von mite.desk benötigst du einen Computer mit Windows >= XP, sowie das .NET Framework >= 4.8 (unter neuen Windows-Versionen wie 10 oder 11 sollte das schon mit dabei sein).
