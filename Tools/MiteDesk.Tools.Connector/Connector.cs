@@ -19,7 +19,7 @@ namespace SixtyNineDegrees.MiteDesk.Tools.Connector
 
         private string MiteAPIBaseURL
         {
-            get { return "https://" + Settings.AccountName + ".mite.yo.lk/"; }
+            get { return "https://" + Settings.AccountName + ".mite.de/"; }
         }
 
         private void Authenticate(ref HttpWebRequest request)

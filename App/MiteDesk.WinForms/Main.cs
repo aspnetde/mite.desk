@@ -156,9 +156,9 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
                 if (firstStart && string.IsNullOrEmpty(AppSettings.AccountName))
                     new Settings(true).ShowDialog(this);
                 else
-                    Helper.StartBackgroundWorker(InitializationBackgroundWorker, null);    
+                    Helper.StartBackgroundWorker(InitializationBackgroundWorker, null);
             }
-            
+
             if (firstStart && AppSettings.StartMinimized)
             {
                 WindowState = FormWindowState.Minimized;
@@ -175,7 +175,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
                 IsInitialized = true;
                 ListProjects.Focus();
             }
-    
+
             EnableOrDisableForm(true);
 
             Stopwatch_Tick(null, null);
@@ -260,7 +260,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
             }
 
             int selectedActivityID = ListActivities.SelectedItem != null ? ((ListItem)ListActivities.SelectedItem).Value : AppSettings.SelectedActivityID;
-            
+
             ListActivities.Items.Clear();
             ListActivities.ValueMember = "Value";
             ListActivities.DisplayMember = "Text";
@@ -309,7 +309,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
 
         private void miteZeitenToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Helper.OpenBrowser("https://" + AppSettings.AccountName + ".mite.yo.lk/daily");
+            Helper.OpenBrowser("https://" + AppSettings.AccountName + ".mite.de/daily");
         }
 
         private void MainMenuCustomersItem_Click(object sender, EventArgs e)
@@ -356,7 +356,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
             entry.Date = Calendar.SelectionStart;
             entry.Locked = Locked.Checked;
 
-            IDictionary<string, string> result = update ? TimeEntryService.UpdateTimeEntry(CurrentTimeEntry, Time.Text) : 
+            IDictionary<string, string> result = update ? TimeEntryService.UpdateTimeEntry(CurrentTimeEntry, Time.Text) :
                                                           TimeEntryService.CreateTimeEntry(ref entry, Time.Text);
 
             if (result.Count > 0)
@@ -390,7 +390,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
             AppSettings.SelectedProjectID = entry.ProjectID;
             AppSettings.SelectedActivityID = entry.ActivityID;
             ConfigurationService.UpdateAppSettings(AppSettings);
-    
+
         }
 
         private void Locked_Click(object sender, EventArgs e)
@@ -558,7 +558,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
                 var lastDate = firstDate.AddMonths(1).AddDays(-1);
                 ActiveDates = TimeEntryService.GetTimeEntryDatesByRange(firstDate, lastDate, AuthenticatedUser.ID);
             }
-            
+
             TimeEntries = TimeEntryService.GetTimeEntriesByDate(selectedDate);
 
             if (AppSettings.SortTimeEntriesDescending)
@@ -692,7 +692,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
                                      Helper.GetFormattedTimeText(entry.Minutes),
                                      entry.CustomerName, entry.ProjectName, entry.ActivityName,
                                      entry.Note.Trim().Length > 0 ? " (" + entry.Note + ")" : string.Empty);
-            
+
             if (maxLength == 0 || text.Length <= maxLength)
                 return text;
 
@@ -775,7 +775,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
 
             TimeEntryContextMenuStartStopwatchItem.Visible = !entry.Locked;
             TimeEntryContextMenuStopStopwatchItem.Visible = !entry.Locked;
-            
+
             toolStripSeparator8.Visible = !entry.Locked;
             TimeEntryContextMenuDeleteItem.Visible = !entry.Locked;
             TimeEntryContextMenuLock.Visible = !entry.Locked && (AuthenticatedUser.Role == UserRole.Admin || AuthenticatedUser.Role == UserRole.Owner);
@@ -794,9 +794,9 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
             else
             {
                 TimeEntryContextMenuStartStopwatchItem.Visible = true;
-                TimeEntryContextMenuStopStopwatchItem.Visible = false;                
+                TimeEntryContextMenuStopStopwatchItem.Visible = false;
             }
-            
+
         }
 
         private void TimeEntryContextMenuStartStopwatchItem_Click(object sender, EventArgs e)
@@ -932,7 +932,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
                 NotifyAboutNetworkErrorAndDisableForm(ex);
                 MessageBox.Show(MainLabels.MsgBoxConnectionErrorText, MainLabels.MsgBoxConnectionErrorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-                
+
         }
 
         private void DisconnectFromServer(object sender, EventArgs e)
@@ -952,7 +952,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
             int stoppedTimeEntryID = StopStopwatch();
             if (stoppedTimeEntryID != timeEntryID)
                 StartStopwatch(timeEntryID);
-            RefreshStopwatchStatus();           
+            RefreshStopwatchStatus();
             RefreshTimeEntries();
         	RefreshListTimeEntriesGroupLabel();
 
@@ -1015,7 +1015,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
             RefreshStopwatchStatus();
             RefreshTimeEntries();
 
-            if (WindowState == FormWindowState.Minimized) 
+            if (WindowState == FormWindowState.Minimized)
                 RefreshTaskbarNotificationInfo(false);
 
         }
@@ -1122,7 +1122,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
 
             NotifyIcon.Visible = true;
             NotifyIcon.MouseClick += NotifyIcon_MouseClick;
-            
+
         }
 
         private void ReOpenMainForm()
@@ -1146,7 +1146,7 @@ namespace SixtyNineDegrees.MiteDesk.WinForms
         private void NotifyContextMenu_Opening(object sender, System.ComponentModel.CancelEventArgs e)
         {
             TimeEntry entry = null;
-            if (TimeEntries != null) 
+            if (TimeEntries != null)
                 entry = TimeEntries.SingleOrDefault(t => t.ID == LastTrackedTimeEntryID);
             NotifyContextMenuStartStopwatchItem.Visible = NotificationClockTimer != null && !NotificationClockTimer.Enabled;
             NotifyContextMenuStartStopwatchItem.Enabled = entry != null && !entry.Locked;
